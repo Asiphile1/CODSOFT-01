@@ -1,0 +1,106 @@
+/* Color Palette: FFB5A7, FCD5CE, F8EDEB, F9DCC4, FEC89A */
+/* Some of these colors are not as bright... I think its okay cause I don't want a noisey color */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8EDEB;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFB5A7;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCD5CE; /* It looks like the colorwhite but it has the clean asthetic to it, so its fine */
+}
+
+#hero img {
+    width: 100%;
+    max-width: 1000px; /* I've made the image big as it does not look nice in a smaller px */
+    height: auto;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 36px;
+    color: #f86446;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FCD5CE;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+    color: #df5119;
+}
+
+.project img {
+    width: 100%;
+    max-width: 500px; /* Adjust this value based on your design */
+    height: auto;
+    margin: 0 auto; /* Center the images */
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FEC89A;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFB5A7;
+    color: #535353;
+}
